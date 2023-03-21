@@ -867,7 +867,8 @@ textarea.input {
   align-items: center;
 }
 
-.content-base-filter__title span {
+.content-base-filter__title span,
+.content-base-filter__title a {
   font-size: 16px;
   line-height: 118.75%;
   color: #000;
@@ -1515,7 +1516,8 @@ textarea.input {
     color: #fff;
   }
 
-  .content-base-filter__title:hover span {
+  .content-base-filter__title:hover span,
+  .content-base-filter__title:hover a {
     color: #F33350;
   }
 
