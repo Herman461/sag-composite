@@ -722,7 +722,6 @@ textarea.input {
   position: relative;
   font-size: 14px;
   line-height: 19px;
-  text-decoration: underline;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   cursor: pointer;
@@ -911,6 +910,10 @@ textarea.input {
 
 .content-base-filter__checkbox:last-child {
   margin: 0;
+}
+
+.content-base-filter__body_underlined .base-checkbox__text {
+  text-decoration: underline;
 }
 
 @media (min-width: 767.98px) {
